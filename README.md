@@ -39,6 +39,7 @@ https://pypi.org/project/tensorflow-cpu/#history
 ## b. Install Tensorflow with GPU support with CUDA >=10.0 and cuDNN>=7.6:  (Virtual environment recommended for safety)
 
 ### 1. Using `pip`:
+
 a. Create NVIDIA account:
 https://developer.nvidia.com/
     
@@ -48,46 +49,50 @@ https://developer.nvidia.com/cuda-downloads
 c. Install cuDNN >7.6         
 https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
-Helping Guide for setting up cuDNN and Cudatoolkit for different `OS platforms`:
+#### Helping Guide for setting up cuDNN and CudaToolkit for different `OS platforms`:
 
-[For Windows](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-windows)
+- [For Windows](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-windows)
 
-[For Linux](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux)
+- [For Linux](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux)
 
-[For Mac](https://docs.nvidia.com/deeplearning/sdk/cudnn-archived/cudnn_741/cudnn-install/index.html#install-mac)
+- [For Mac](https://docs.nvidia.com/deeplearning/sdk/cudnn-archived/cudnn_741/cudnn-install/index.html#install-mac)
 
-d. Install tensorflow GPU `TF >= 2.0`    *Latest version*
+#### d. Install tensorflow GPU:
+
+- `TF>= 2.0`     *Latest version*
 
     pip install tensorflow-gpu
     
-   Install Tensorflow GPU  `== 2.x.x `   *Exact version say 2.0.0*
+- `TF== 2.x.x `  *Exact version say 2.0.0*
     
     pip install tensorflow-gpu==2.0.0
    
-   Install Tensorflow GPU `<=1.15.x`     *Deprecated version say 1.15.0*
+- `TF<=1.15.x`   *Deprecated version say 1.15.0*
     
     pip install tensorflow-gpu==1.15.0
     
 
 ### 2. Using `conda`:
-a. Install CUDA Toolkit (>= 10.0) (recommended)
+#### a. Install CUDA Toolkit (>= 10.0) (recommended)
     
     conda install -c anaconda cudatoolkit
 
-b. Install cuDNN (>= 7.6.5)
+#### b. Install cuDNN (>= 7.6.5)
     
     conda install -c anaconda cudnn
 
-c. Install Tensorflow GPU  `TF >= 2.0`    *Latest version*
+#### c. Install Tensorflow GPU:  
+
+- `TF >= 2.0`    *Latest version*
     
     conda install -c anaconda tensorflow-gpu
    
    
-   Install Tensorflow GPU  `== 2.x.x `    *Exact version say 2.0.0*
+- `TF== 2.x.x `  *Exact version say 2.0.0*
     
     conda install -c anaconda tensorflow-gpu==2.0.0
    
-   Install Tensorflow GPU  `<= 1.15.x `   *Exact version say 1.15.0*
+- `<= 1.15.x `   *Exact version say 1.15.0*
     
     conda install -c anaconda tensorflow-gpu==1.15.0
 
@@ -96,7 +101,7 @@ c. Install Tensorflow GPU  `TF >= 2.0`    *Latest version*
     
     dynamic cudartXX_xxx.dll library missing
     
-   Install the correct cudartXX_xxx.dll dynamic library runtime from internet and add this to PATH variable (system/
+### Install the correct cudartXX_xxx.dll dynamic library runtime from internet and add this to `PATH`
 
 
 ## List of Tensorflow compatible versions with CUDA and cuDNN:
@@ -122,8 +127,8 @@ c. Install Tensorflow GPU  `TF >= 2.0`    *Latest version*
         tensorflow-1.4.0	    3.5-3.6	            MSVC 2015 update 3	
         tensorflow-1.3.0	    3.5-3.6	            MSVC 2015 update 3	
         tensorflow-1.2.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.1.0	    3.5	                MSVC 2015 update 3	
-        tensorflow-1.0.0	    3.5	                MSVC 2015 update 3	
+        tensorflow-1.1.0	    3.5	            MSVC 2015 update 3	
+        tensorflow-1.0.0	    3.5	            MSVC 2015 update 3	
 
 
 ### Tensorflow GPU Support configurations:
@@ -147,8 +152,8 @@ c. Install Tensorflow GPU  `TF >= 2.0`    *Latest version*
         tensorflow_gpu-1.4.0	3.5-3.6	            MSVC 2015 update 3		6	        8
         tensorflow_gpu-1.3.0	3.5-3.6	            MSVC 2015 update 3		6	        8
         tensorflow_gpu-1.2.0	3.5-3.6	            MSVC 2015 update 3		5.1	        8
-        tensorflow_gpu-1.1.0	3.5	                MSVC 2015 update 3		5.1	        8
-        tensorflow_gpu-1.0.0	3.5	                MSVC 2015 update 3		5.1	        8
+        tensorflow_gpu-1.1.0	3.5	            MSVC 2015 update 3		5.1	        8
+        tensorflow_gpu-1.0.0	3.5	            MSVC 2015 update 3		5.1	        8
 
 
 
