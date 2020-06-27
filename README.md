@@ -4,12 +4,13 @@ Easy Installation of Tensorflow using CPU and GPU support
 # Requirements:
 
 1. Python (both using PIP and Conda)
-2. NVIDIA GPU of Compute capability >= 6.0   (For GPU support) *optional
+2. NVIDIA GPU of Compute capability >= 6.0   (For GPU support) *optional*
 3. CPU RAM (8 GB or higher for efficient performance)
 4. CUDA Drivers installed (Normally it's installed for NVIDIA Drivers)
 
 # Process:
 a. Install Tensorflow using CPU support (By default)
+
 b. Install Tensorflow using GPU support
 
 # Recommended:
@@ -32,24 +33,31 @@ b. Install Tensorflow using GPU support
 
 ### 1. Using `pip`:
 a. Install cudatoolkit >= 10
-
+        
+        https://developer.nvidia.com/cuda-downloads
+        
 b. Install cuDNN >7.6 
-
+         
+        https://developer.nvidia.com/rdp/form/cudnn-download-survey
+        
 c. Install tensorflow GPU 
 
     pip install tensorflow-gpu
 
 ### 2. Using `conda`:
-
-a. Install CUDA Toolkit (>= 10.0)
+a. Create NVIDIA account:
+    
+    https://developer.nvidia.com/
+    
+b. Install CUDA Toolkit (>= 10.0)
     
     conda install -c anaconda cudatoolkit
 
-b. Install cuDNN (>= 7.6)
+c. Install cuDNN (>= 7.6)
     
     conda install -c anaconda cudnn
 
-c. Install Tensorflow GPU  `TF >= 2.0` *Latest version*
+d. Install Tensorflow GPU  `TF >= 2.0` *Latest version*
     
     conda install -c anaconda tensorflow-gpu
    
