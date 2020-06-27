@@ -12,9 +12,9 @@ Easy Installation of Tensorflow for both `CPU` and `GPU` support
 https://developer.nvidia.com/cuda-gpus#compute
 
 # Installation Options:
-a. Install Tensorflow using `CPU` support  (By Default)
+- a. Install Tensorflow using `CPU` support  (By Default)
 
-b. Install Tensorflow using `GPU` support
+- b. Install Tensorflow using `GPU` support
 
 # Recommended (optional):
 ### A Virtual Environment with `virtualenv` or `conda`
