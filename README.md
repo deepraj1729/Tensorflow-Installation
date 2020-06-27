@@ -1,5 +1,5 @@
 # Tensorflow-Installation
-Easy Installation of Tensorflow using CPU and GPU support
+Easy Installation of Tensorflow for both CPU and GPU support
 
 # Requirements:
 
