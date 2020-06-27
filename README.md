@@ -34,15 +34,15 @@ b. Install Tensorflow using GPU support
 ### 1. Using `pip`:
 a. Create NVIDIA account:
     
-    https://developer.nvidia.com/
+https://developer.nvidia.com/
     
 b. Install cudatoolkit >= 10
         
-        https://developer.nvidia.com/cuda-downloads
+https://developer.nvidia.com/cuda-downloads
         
 c. Install cuDNN >7.6 
          
-        https://developer.nvidia.com/rdp/form/cudnn-download-survey
+https://developer.nvidia.com/rdp/form/cudnn-download-survey
         
 d. Install tensorflow GPU `TF >= 2.0` *Latest version*
 
