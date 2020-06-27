@@ -1,34 +1,34 @@
 # Tensorflow-Installation
-Easy Installation of Tensorflow for both `CPU` and `GPU` support
+### Easy Installation of Tensorflow for both `CPU` and `GPU` support
 
 # Requirements:
 
-1. Python (both using `pip` and `conda`)
-2. `CPU RAM 8 GB or higher` for efficient performance  (Recommended for both supports)
-3. `CUDA enabled GPU` having Compute capability >= 3.0    (For GPU support)    *optional for CPU support*
-4. `Microsoft Visual Studio` >=2015 (for compatibility)
+1. `Python >= 3.5` (using either `pip` or `conda`)
+2. `CPU RAM 8 GB or higher` for efficient performance   (*Recommended for both supports*)
+3. `CUDA enabled GPU` having Compute capability >= 3.0  For GPU support  (*optional for CPU support*)
+4. `Microsoft Visual Studio` >=2015  (*for compatibility*)
 
-# Check your NVIDIA GPU's Compute Capability here:
+## Check your NVIDIA GPU's Compute Capability here:
 https://developer.nvidia.com/cuda-gpus#compute
 
 # Installation Options:
-- a. Install Tensorflow using `CPU` support  (By Default)
+#### a. Install Tensorflow using `CPU` support  (By Default)
 
-- b. Install Tensorflow using `GPU` support
+#### b. Install Tensorflow using `GPU` support
 
-# Recommended (optional):
-### A Virtual Environment with `virtualenv` or `conda`
+## Recommended (optional):
+#### A Virtual Environment with `virtualenv` or `conda`
 
-## (a). Install Tensorflow with CPU support:
-### - `TF >= 2.0` *latest version*
+## (a). Install Tensorflow with `CPU support`:
+### - `TF >= 2.0`    (*latest version*)
     
     pip install tensorflow-cpu
 
-### - `TF == 2.x.x`   *Exact version say 2.1.0*
+### - `TF == 2.x.x`  (*Exact version say 2.1.0*)
   
     pip install tensorflow-cpu==2.1.0
     
-### - `TF <= 1.15.x`   *Deprecated version*
+### - `TF <= 1.15.x`  (*Deprecated version*)
 
     pip install tensorflow-cpu==1.15
 
@@ -40,34 +40,32 @@ https://pypi.org/project/tensorflow-cpu/#history
 
 ### 1. Using `pip`:
 
-a. Create NVIDIA account:
+#### a. Create NVIDIA account:
 https://developer.nvidia.com/
     
-b. Install cudatoolkit >= 10    
+#### b. Install cudatoolkit >= 10    
 https://developer.nvidia.com/cuda-downloads
         
-c. Install cuDNN >7.6         
+#### c. Install cuDNN >7.6         
 https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 #### Helping Guide for setting up cuDNN and CudaToolkit for different `OS platforms`:
 
 - [For Windows](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-windows)
-
 - [For Linux](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-linux)
-
 - [For Mac](https://docs.nvidia.com/deeplearning/sdk/cudnn-archived/cudnn_741/cudnn-install/index.html#install-mac)
 
 #### d. Install tensorflow GPU:
 
-#### - `TF>= 2.0`     *Latest version*
+#### - `TF>= 2.0`     (*Latest version*)
 
     pip install tensorflow-gpu
     
-#### - `TF== 2.x.x `  *Exact version say 2.0.0*
+#### - `TF== 2.x.x `  (*Exact version say 2.0.0*)
     
     pip install tensorflow-gpu==2.0.0
    
-#### - `TF<=1.15.x`   *Deprecated version say 1.15.0*
+#### - `TF<=1.15.x`   (*Deprecated version say 1.15.0*)
     
     pip install tensorflow-gpu==1.15.0
     
@@ -83,16 +81,16 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 #### c. Install Tensorflow GPU:  
 
-#### - `TF >= 2.0`    *Latest version*
+#### - `TF >= 2.0`    (*Latest version*)
     
     conda install -c anaconda tensorflow-gpu
    
    
-#### - `TF== 2.x.x `  *Exact version say 2.0.0*
+#### - `TF== 2.x.x `  (*Exact version say 2.0.0*)
     
     conda install -c anaconda tensorflow-gpu==2.0.0
    
-#### - `TF<= 1.15.x `   *Exact version say 1.15.0*
+#### - `TF<= 1.15.x `  (*Exact version say 1.15.0*)
     
     conda install -c anaconda tensorflow-gpu==1.15.0
 
@@ -101,12 +99,12 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
     
     dynamic cudartXX_xxx.dll library missing
     
-### Install the correct cudartXX_xxx.dll dynamic library runtime from internet and add this to `PATH`
+##### Install the correct cudartXX_xxx.dll dynamic library runtime from internet and add this to `PATH`
 
 
-## List of Tensorflow compatible versions with CUDA and cuDNN:
+# Tensorflow compatibility:
 
-### Tensorflow CPU Support configurations:
+### Tensorflow CPU Support configurations table:
 
 |       Version             |  Python version    |        Compiler            |
 |---------------------------|:------------------:| --------------------------:|
@@ -131,7 +129,9 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 |    tensorflow-1.0.0	    |    3.5	         |       MSVC 2015 update 3	  |      
 
 
-### Tensorflow GPU Support configurations:
+
+
+### Tensorflow GPU Support configurations table:
 
 
 |   Version             | Python version   | Compiler           | cuDNN       |   CUDA    |
