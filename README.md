@@ -92,7 +92,7 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
     
     conda install -c anaconda tensorflow-gpu==2.0.0
    
-- `<= 1.15.x `   *Exact version say 1.15.0*
+- `TF<= 1.15.x `   *Exact version say 1.15.0*
     
     conda install -c anaconda tensorflow-gpu==1.15.0
 
@@ -127,13 +127,13 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
         tensorflow-1.4.0	    3.5-3.6	            MSVC 2015 update 3	
         tensorflow-1.3.0	    3.5-3.6	            MSVC 2015 update 3	
         tensorflow-1.2.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.1.0	    3.5	            MSVC 2015 update 3	
-        tensorflow-1.0.0	    3.5	            MSVC 2015 update 3	
+        tensorflow-1.1.0	    3.5	             MSVC 2015 update 3	
+        tensorflow-1.0.0	    3.5	             MSVC 2015 update 3	
 
 
 ### Tensorflow GPU Support configurations:
 
-            Version	        Python version	        Compiler	            cuDNN	    CUDA
+            Version	          Python version	        Compiler	            cuDNN	    CUDA
 
         tensorflow_gpu-2.2.0	3.5-3.8	            MSVC 2019		        7.4	        10.1
         tensorflow_gpu-2.1.0	3.5-3.7	            MSVC 2019		        7.4	        10.1
@@ -156,4 +156,8 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
         tensorflow_gpu-1.0.0	3.5	            MSVC 2015 update 3		5.1	        8
 
 
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
