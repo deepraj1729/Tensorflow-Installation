@@ -59,15 +59,15 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 #### d. Install tensorflow GPU:
 
-- `TF>= 2.0`     *Latest version*
+#### - `TF>= 2.0`     *Latest version*
 
     pip install tensorflow-gpu
     
-- `TF== 2.x.x `  *Exact version say 2.0.0*
+#### - `TF== 2.x.x `  *Exact version say 2.0.0*
     
     pip install tensorflow-gpu==2.0.0
    
-- `TF<=1.15.x`   *Deprecated version say 1.15.0*
+#### - `TF<=1.15.x`   *Deprecated version say 1.15.0*
     
     pip install tensorflow-gpu==1.15.0
     
@@ -83,16 +83,16 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 #### c. Install Tensorflow GPU:  
 
-- `TF >= 2.0`    *Latest version*
+#### - `TF >= 2.0`    *Latest version*
     
     conda install -c anaconda tensorflow-gpu
    
    
-- `TF== 2.x.x `  *Exact version say 2.0.0*
+#### - `TF== 2.x.x `  *Exact version say 2.0.0*
     
     conda install -c anaconda tensorflow-gpu==2.0.0
    
-- `TF<= 1.15.x `   *Exact version say 1.15.0*
+#### - `TF<= 1.15.x `   *Exact version say 1.15.0*
     
     conda install -c anaconda tensorflow-gpu==1.15.0
 
@@ -108,7 +108,8 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 ### Tensorflow CPU Support configurations:
 
-|       Version             |  Python version    |        Compiler            |        
+|       Version             |  Python version    |        Compiler            |
+|---------------------------|:------------------:| --------------------------:|
 |    tensorflow-2.2.0	    |    3.5-3.8	     |       MSVC 2019	          |      
 |    tensorflow-2.1.0	    |    3.5-3.7	     |       MSVC 2019	          |  
 |    tensorflow-2.0.0	    |    3.5-3.7	     |       MSVC 2017	          |      
