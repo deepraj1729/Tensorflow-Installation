@@ -156,8 +156,8 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
         tensorflow_gpu-1.0.0	3.5	            MSVC 2015 update 3		5.1	        8
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+        | Tables        | Are           | Cool  |
+        | ------------- |:-------------:| -----:|
+        | col 3 is      | right-aligned | $1600 |
+        | col 2 is      | centered      |   $12 |
+        | zebra stripes | are neat      |    $1 |
