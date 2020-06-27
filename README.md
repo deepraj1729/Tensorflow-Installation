@@ -133,31 +133,25 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 ### Tensorflow GPU Support configurations:
 
-            Version	          Python version	        Compiler	            cuDNN	    CUDA
 
-        tensorflow_gpu-2.2.0	3.5-3.8	            MSVC 2019		        7.4	        10.1
-        tensorflow_gpu-2.1.0	3.5-3.7	            MSVC 2019		        7.4	        10.1
-        tensorflow_gpu-2.0.0	3.5-3.7	            MSVC 2017		        7.4	        10
-        tensorflow_gpu-1.15.0	3.5-3.7	            MSVC 2017		        7.4	        10
-        tensorflow_gpu-1.14.0	3.5-3.7	            MSVC 2017		        7.4	        10
-        tensorflow_gpu-1.13.0	3.5-3.7	            MSVC 2015 update 3		7.4	        10
-        tensorflow_gpu-1.12.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.11.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.10.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.9.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.8.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.7.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.6.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.5.0	3.5-3.6	            MSVC 2015 update 3		7	        9
-        tensorflow_gpu-1.4.0	3.5-3.6	            MSVC 2015 update 3		6	        8
-        tensorflow_gpu-1.3.0	3.5-3.6	            MSVC 2015 update 3		6	        8
-        tensorflow_gpu-1.2.0	3.5-3.6	            MSVC 2015 update 3		5.1	        8
-        tensorflow_gpu-1.1.0	3.5	            MSVC 2015 update 3		5.1	        8
-        tensorflow_gpu-1.0.0	3.5	            MSVC 2015 update 3		5.1	        8
-
-
-|   Version             | Python version   | Compiler  | cuDNN       |   CUDA    |
-|-----------------------|:----------------:| ---------:| -----------:| ---------:|
-| tensorflow_gpu-2.2.0  |   3.5-3.8        | MSVC 2019 |   7.4       |  10.1     |
-| tensorflow_gpu-2.1.0  |   3.5-3.7        | MSVC 2019 |   7.4       |  10.1     |
-| tensorflow_gpu-2.0.0  |   3.5-3.7        | MSVC 2017 |   7.4       |  10.1     |
+|   Version             | Python version   | Compiler           | cuDNN       |   CUDA    |
+|-----------------------|:----------------:| ------------------:| -----------:| ---------:|
+| tensorflow_gpu-2.2.0  |   3.5-3.8        | MSVC 2019          |   7.4       |  10.1     |
+| tensorflow_gpu-2.1.0  |   3.5-3.7        | MSVC 2019          |   7.4       |  10.1     |
+| tensorflow_gpu-2.0.0  |   3.5-3.7        | MSVC 2017          |   7.4       |  10.1     |
+| tensorflow_gpu-1.15.0	|   3.5-3.7	       | MSVC 2017          |   7.4	      |  10       |
+| tensorflow_gpu-1.14.0	|   3.5-3.7	       | MSVC 2017		    |   7.4	      |  10       |  
+| tensorflow_gpu-1.13.0	|   3.5-3.7	       | MSVC 2015 update 3	|	7.4	      |  10       |      
+| tensorflow_gpu-1.12.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |      
+| tensorflow_gpu-1.11.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |      
+| tensorflow_gpu-1.10.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |      
+| tensorflow_gpu-1.9.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |      
+| tensorflow_gpu-1.8.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |          
+| tensorflow_gpu-1.7.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |          
+| tensorflow_gpu-1.6.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |          
+| tensorflow_gpu-1.5.0	|   3.5-3.6	       | MSVC 2015 update 3	|	7	      |  9        |          
+| tensorflow_gpu-1.4.0	|   3.5-3.6	       | MSVC 2015 update 3	|	6	      |  8        |          
+| tensorflow_gpu-1.3.0	|   3.5-3.6	       | MSVC 2015 update 3	|	6	      |  8        |          
+| tensorflow_gpu-1.2.0	|   3.5-3.6	       | MSVC 2015 update 3	|	5.1	      |  8        |      
+| tensorflow_gpu-1.1.0	|   3.5	           | MSVC 2015 update 3	|	5.1	      |  8        |          
+| tensorflow_gpu-1.0.0	|   3.5	           | MSVC 2015 update 3	|	5.1	      |  8        |          
