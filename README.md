@@ -19,16 +19,16 @@ https://developer.nvidia.com/cuda-gpus#compute
 # Recommended (optional):
 ### A Virtual Environment with `virtualenv` or `conda`
 
-## a. Install Tensorflow with CPU support:
-### 1. `TF >= 2.0` *latest version*
+## (a). Install Tensorflow with CPU support:
+### - `TF >= 2.0` *latest version*
     
     pip install tensorflow-cpu
 
-### 2. `TF == 2.x.x`   *Exact version say 2.1.0*
+### - `TF == 2.x.x`   *Exact version say 2.1.0*
   
     pip install tensorflow-cpu==2.1.0
     
-### 3. `TF <= 1.15.x`   *Deprecated version*
+### - `TF <= 1.15.x`   *Deprecated version*
 
     pip install tensorflow-cpu==1.15
 
@@ -36,7 +36,7 @@ https://developer.nvidia.com/cuda-gpus#compute
 https://pypi.org/project/tensorflow-cpu/#history
 
 
-## b. Install Tensorflow with GPU support with CUDA >=10.0 and cuDNN>=7.6:  (Virtual environment recommended for safety)
+## (b). Install Tensorflow with GPU support with CUDA >=10.0 and cuDNN>=7.6:  (Virtual environment recommended for safety)
 
 ### 1. Using `pip`:
 
@@ -108,27 +108,26 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 ### Tensorflow CPU Support configurations:
 
-            Version	        Python version	        Compiler   
-        
-        tensorflow-2.2.0	    3.5-3.8	            MSVC 2019	
-        tensorflow-2.1.0	    3.5-3.7	            MSVC 2019	
-        tensorflow-2.0.0	    3.5-3.7	            MSVC 2017	
-        tensorflow-1.15.0	    3.5-3.7	            MSVC 2017	
-        tensorflow-1.14.0	    3.5-3.7	            MSVC 2017 
-        tensorflow-1.13.0	    3.5-3.7	            MSVC 2015 update 3	
-        tensorflow-1.12.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.11.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.10.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.9.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.8.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.7.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.6.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.5.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.4.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.3.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.2.0	    3.5-3.6	            MSVC 2015 update 3	
-        tensorflow-1.1.0	    3.5	             MSVC 2015 update 3	
-        tensorflow-1.0.0	    3.5	             MSVC 2015 update 3	
+|       Version             |  Python version    |        Compiler            |        
+|    tensorflow-2.2.0	    |    3.5-3.8	     |       MSVC 2019	          |      
+|    tensorflow-2.1.0	    |    3.5-3.7	     |       MSVC 2019	          |  
+|    tensorflow-2.0.0	    |    3.5-3.7	     |       MSVC 2017	          |      
+|    tensorflow-1.15.0	    |    3.5-3.7	     |       MSVC 2017	          |      
+|    tensorflow-1.14.0	    |    3.5-3.7	     |       MSVC 2017            |  
+|    tensorflow-1.13.0	    |    3.5-3.7	     |       MSVC 2015 update 3   |  	        
+|    tensorflow-1.12.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |              
+|    tensorflow-1.11.0	    |    3.5-3.6	     |       MSVC 2015 update 3   |  	    
+|    tensorflow-1.10.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |              
+|    tensorflow-1.9.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |              
+|    tensorflow-1.8.0	    |    3.5-3.6	     |       MSVC 2015 update 3   |  	        
+|    tensorflow-1.7.0	    |    3.5-3.6	     |       MSVC 2015 update 3   |  	        
+|    tensorflow-1.6.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |              
+|    tensorflow-1.5.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |              
+|    tensorflow-1.4.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |      
+|    tensorflow-1.3.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |      
+|    tensorflow-1.2.0	    |    3.5-3.6	     |       MSVC 2015 update 3	  |      
+|    tensorflow-1.1.0	    |    3.5	         |       MSVC 2015 update 3	  |      
+|    tensorflow-1.0.0	    |    3.5	         |       MSVC 2015 update 3	  |      
 
 
 ### Tensorflow GPU Support configurations:
