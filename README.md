@@ -32,32 +32,32 @@ b. Install Tensorflow using GPU support
 # b. Tensorflow with GPU for CUDA >=10 and cuDNN>=7.6: (Virtual environment recommended for safety)
 
 ### 1. Using `pip`:
-a. Install cudatoolkit >= 10
-        
-        https://developer.nvidia.com/cuda-downloads
-        
-b. Install cuDNN >7.6 
-         
-        https://developer.nvidia.com/rdp/form/cudnn-download-survey
-        
-c. Install tensorflow GPU 
-
-    pip install tensorflow-gpu
-
-### 2. Using `conda`:
 a. Create NVIDIA account:
     
     https://developer.nvidia.com/
     
-b. Install CUDA Toolkit (>= 10.0)
+b. Install cudatoolkit >= 10
+        
+        https://developer.nvidia.com/cuda-downloads
+        
+c. Install cuDNN >7.6 
+         
+        https://developer.nvidia.com/rdp/form/cudnn-download-survey
+        
+d. Install tensorflow GPU 
+
+    pip install tensorflow-gpu
+
+### 2. Using `conda`:
+a. Install CUDA Toolkit (>= 10.0)
     
     conda install -c anaconda cudatoolkit
 
-c. Install cuDNN (>= 7.6)
+b. Install cuDNN (>= 7.6)
     
     conda install -c anaconda cudnn
 
-d. Install Tensorflow GPU  `TF >= 2.0` *Latest version*
+c. Install Tensorflow GPU  `TF >= 2.0` *Latest version*
     
     conda install -c anaconda tensorflow-gpu
    
