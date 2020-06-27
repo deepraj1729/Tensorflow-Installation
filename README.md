@@ -46,7 +46,7 @@ https://developer.nvidia.com/
 #### b. Install cudatoolkit >= 10    
 https://developer.nvidia.com/cuda-downloads
         
-#### c. Install cuDNN >7.6         
+#### c. Install cuDNN >=7.6         
 https://developer.nvidia.com/rdp/form/cudnn-download-survey
 
 #### Helping Guide for setting up cuDNN and CudaToolkit for different `OS platforms`:
@@ -75,7 +75,7 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
     
     conda install -c anaconda cudatoolkit
 
-#### b. Install cuDNN (>= 7.6.5)
+#### b. Install cuDNN (>= 7.6)
     
     conda install -c anaconda cudnn
 
@@ -90,7 +90,7 @@ https://developer.nvidia.com/rdp/form/cudnn-download-survey
     
     conda install -c anaconda tensorflow-gpu==2.0.0
    
-#### - `TF<= 1.15.x `  (*Exact version say 1.15.0*)
+#### - `TF<= 1.15.x ` (*Deprecated version say 1.15.0*)
     
     conda install -c anaconda tensorflow-gpu==1.15.0
 
