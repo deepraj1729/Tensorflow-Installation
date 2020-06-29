@@ -5,7 +5,7 @@
 
 1. `Python >= 3.5` (using either `pip` or `conda`)
 2. `CPU RAM 8 GB or higher` for efficient performance   (*Recommended for both supports*)
-3. `CUDA enabled GPU` having Compute capability >= 3.0  For GPU support  (*optional for CPU support*)
+3. `CUDA enabled GPU` having Compute capability >= 3.0  For GPU support  (*optional for GPU support*)
 4. `Microsoft Visual Studio` >=2015  (*for compatibility*)
 
 ## Check your NVIDIA GPU's Compute Capability here:
